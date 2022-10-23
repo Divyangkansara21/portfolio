@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal PortFolio</title>
+    <link href="style.css" rel="stylesheet" >
+    <script src="https://kit.fontawesome.com/c3f24ff524.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <!--<nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+            </nav>-->
+            <div class="header-text">
+                <p>Developer, ML Enthusiast</p>
+                <h1>Hi, I'm <span1>Divyang</span1> <br>Kansara From India</h1>
+            </div>
+        </div>
+    </div>
+
+<!------------------About--------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/mypic2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hii, I am Divyang Kansara, a 3rd year student of Computer Science having the intermediate knowledge about developing
+                    and eager to explore more about in this field. Also eager to learn new technologies for giving my best in my field.</fieldset> 
+                </p>
+                
+                <div class="tabtitles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">                 
+                    <ul>
+                        <li><span>Python</span><br>Core Python and It's Framework <span>Flask</span></li>
+                        <li><span>Web Development</span><br>Web Application Development</li>
+                        <li><span>Machine Learning</span><br>Machine Learning Algorithms</li>
+                        <li><span>Front end</span><br>HTML5 CSS3 JavaScript</li>
+                        <li><span>Back end</span><br>Flask - a python framework  </li>
+                    </ul>
+                </div>
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        
+                        <li><span>2022</span><br>currently a 3rd year student of Bechlor Degree in Computer Science at NLJIET, Ahmedabad.</li>
+                        <li><span>2020</span><br>HSC from SVM, Ahmedabad.</li>
+                        <li><span>2018</span><br>SSC from Aone School, Ahmedabad.</li>
+                    </ul>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<!-------------------------------services-------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python</h2>
+                <p>Code, Design, Deploy and Debugg development projects, typically on the server-side (or back-end).
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            
+        <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>Web Development</h2>
+            <p> Create websites by writing well designed, testable, efficient code by using best software development practices.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Machine Learning</h2>
+            <p> Use computational methods to “learn” information directly from data without relying on a predetermined equation as a model.
+            </p>
+            <a href="#">Learn more</a>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+<!--------------portfolio----------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Hotel Management Site</h3>
+                    <p>The site which helps you to book the rooms of your comfort.<br>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music Site</h3>
+                    <p>The site in which you can listen music as well as create your musical content.<br>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping Site</h3>
+                    <p>The site makes it easy for anyone to shop from anywhere without any restrictions. There is no need of going outside.<br>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------------contact----------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contect Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>divyangkansara21@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9157543637</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/divyang__kd_21/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/divyang-kansara-a16a00214/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn1">Submit</button>   
+                </form>
+            </div>  
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Kansara Divyang. Made with <i class="fas fa-heart"></i> by Kansara Divyang</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+</body>
+</html>
